@@ -23,8 +23,8 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/PureSwift/Bluetooth.git",
-            .branch("master")
+            url: "https://github.com/PureSwift/Bluetooth.git", 
+            from: "5.1.2"
         )
     ],
     targets: [
